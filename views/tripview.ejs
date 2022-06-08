@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/" />
+    <title>Location</title>
+    <link rel="stylesheet" href="css/style-View.css" />
+  </head>
+
+  <header class="topnav">
+    <div>
+      <nav class="topnav">
+        <a href="/">Home</a>
+      </nav>
+    </div>
+  </header>
+
+  <body>
+    <main>
+      <Section>
+        <div class="tripFig">
+          <img src="<%= trip.Image %>" height="350" width="225" />
+        </div>
+      </Section>
+
+      <Section>
+        <div class="trip">
+          <p class="trip">Location name: <%= trip.Nome%></p>
+          <p class="trip">City: <%= trip.City%></p>          
+          <p class="trip">Country: <%= trip.Country%></p>
+          <p class="trip">Summary: <%= trip.Descricao%></p>
+
+        </div>
+      </Section>
+    </main>
+  </body>
+</html>

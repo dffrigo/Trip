@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>New Trip</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="topnav">
+      <nav>
+        <a href="/">Home</a>
+        <a href="/Database">New trip</a>
+      </nav>
+    </header>
+
+    <div>
+      <h1 class="titulo">City data</h1>
+    </div>
+    
+
+    <div class="Container">
+      <form action="/New" method="POST">
+        <div class="campo">
+          <p class="TitleForm">Location name:</p>
+          <label for="Nome"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Nome"
+            id="input_nome"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">City:</p>
+          <label for="City"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="City"
+            id="input_city"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Image from web:</p>
+          <label for="Image"></label>
+          <input
+            class="InputForm"
+            type="src"
+            name="Image"
+            id="input_image"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Country:</p>
+          <label for="Country"></label>
+          <input
+            class="InputForm"
+            type="text"
+            name="Country"
+            id="input_country"
+            required
+          />
+        </div>
+
+        <div class="campo">
+          <p class="TitleForm">Summary:</p>
+          <label for="Descricao"></label>
+          <textarea name="Descricao" id="input_desc" cols="45" rows="8" placeholder="Short description "></textarea>
+        </div>
+
+        <div class="CenterButton">
+          <button class="botao" type="submit">Add</button>
+        </div>
+      </form>
+    </div>
+
+    <script type="text/javascript" src="js/script.js"></script>
+  </body>
+</html>
