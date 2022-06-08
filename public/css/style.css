@@ -33,9 +33,9 @@ body {
 
 .intro {
   display: flex;
-  margin: 1.5rem 0 0 0;
+  margin: 1rem 0 0 0;
   font-family: JetBrains Mono;
-  font-size: 1.2rem;
+  font-size: 1rem;
   justify-content: center;
 }
 
@@ -48,7 +48,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin: 2rem 0 0 0;
+  margin: 1rem 0 0 0;
 }
 
 .Card {
