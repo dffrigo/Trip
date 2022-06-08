@@ -2,7 +2,7 @@
 > This is a summary of wonderful locations that I once visited | Travel | Nice places
 
 
-<img width="361" alt="MIT JavaScript EJS HTML CSS" src="https://user-images.githubusercontent.com/102762000/170799710-524148ec-5387-403a-8128-1ad481eda2df.png">
+![Traveling](https://user-images.githubusercontent.com/102762000/172515898-07f83845-c29f-4549-b6c8-e364aec898ba.png)
 
 
 Dear guests! This is a summary of wonderful locations that I once visited. Enjoy!
